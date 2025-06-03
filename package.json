@@ -19,9 +19,9 @@
     "packages/utils"
   ],
   "dependencies": {
-    "@my-ui/components": "workspace:^",
-    "@my-ui/theme-chalk": "workspace:^",
-    "@my-ui/utils": "workspace:^",
+    "@airoe-components-md/components": "workspace:^",
+    "@airoe-components-md/theme-chalk": "workspace:^",
+    "@airoe-components-md/utils": "workspace:^",
     "typescript": "^5.8.3",
     "vue": "^3.5.16"
   },
