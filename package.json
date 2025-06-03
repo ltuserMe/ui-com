@@ -1,0 +1,26 @@
+{
+  "name": "ui-com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -c play dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.7.0",
+  "workspaces": [
+    "packages/components",
+    "packages/theme-chalk",
+    "packages/utils"
+  ],
+  "dependencies": {
+    "@my-ui/components": "workspace:^",
+    "@my-ui/theme-chalk": "workspace:^",
+    "@my-ui/utils": "workspace:^",
+    "typescript": "^5.8.3",
+    "vue": "^3.5.16"
+  }
+}
