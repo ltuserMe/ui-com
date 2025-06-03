@@ -1,11 +1,13 @@
 {
-  "name": "ui-com",
+  "name": "--ui-com-ponents--md",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
   "scripts": {
-    "dev": "pnpm -c play dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "pnpm -C play dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
@@ -22,5 +24,10 @@
     "@my-ui/utils": "workspace:^",
     "typescript": "^5.8.3",
     "vue": "^3.5.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "sass-embedded": "^1.89.1",
+    "vite": "^6.3.5"
   }
 }

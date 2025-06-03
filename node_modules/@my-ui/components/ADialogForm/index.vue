@@ -65,9 +65,9 @@
                     >
                       <template
                         v-for="(checkboxItem, index) in item.checkboxes"
+                        :key="index"
                       >
                         <el-checkbox
-                          :key="index"
                           :value="checkboxItem.value"
                           :disabled="item.disabled"
                           @change="handleCheckboxChange(checkboxItem.value)"
